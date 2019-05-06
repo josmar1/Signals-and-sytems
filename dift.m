@@ -1,5 +1,6 @@
 %Transformada inversa de fourier
-function xi = dift(1000,x) %N:#muestras, x=funcion
+N=1000;
+%function xi = dift(1000,x) %N:#muestras, x=funcion
     for n=0:N-1
         xa=0;
         for k=0:N-1
@@ -13,4 +14,4 @@ function xi = dift(1000,x) %N:#muestras, x=funcion
     plot(xi)
     %plot(xph) %si quieres plotear la phase descomenta esta linea y comenta
                %la de arriba
-end
+%end
